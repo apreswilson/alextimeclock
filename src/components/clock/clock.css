@@ -1,0 +1,74 @@
+.timer {
+  background-color: rgb(40, 35, 101);
+  width: 70dvw;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 75px auto auto auto;
+  height: 700px;
+}
+
+.clock {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-family: 'Fira Code';
+  font-weight: 100;
+}
+
+.hours,
+.minutes,
+.seconds {
+  font-size: 60px;
+}
+
+.clock p {
+  font-size: 20px;
+}
+
+.clock-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: 'Fira Code';
+  font-weight: 100;
+  margin-top: 50px;
+}
+
+.clock-in,
+.clock-out,
+.end-period {
+  font-family: 'Fira Code';
+  width: 30dvw;
+  margin: 50px auto auto auto;
+  height: 65px;
+  border-radius: 10px;
+  border: none;
+  font-size: 30px;
+  color: white;
+  background-color: rgb(64, 56, 155);
+  transition: 0.25s;
+}
+
+.status-text {
+  text-align: center;
+  font-size: 25px;
+  margin: 25px 0 0 0;
+}
+
+.clock-in:hover,
+.clock-out:hover,
+.end-period:hover {
+  cursor: pointer;
+  background-color: rgb(64, 56, 155, 0.75);
+  transition: 0.25s;
+}
+
+
+@media screen and (max-width: 900px) {
+
+  .clock-in,
+  .clock-out,
+  .end-period {
+    width: 60dvw;
+  }
+}

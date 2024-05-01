@@ -1,0 +1,55 @@
+.details,
+.period-data {
+  background-color: rgb(40, 35, 101);
+  border-radius: 50px;
+  padding: 25px;
+  width: 45dvw;
+  margin: auto;
+  margin-top: 40px;
+  font-family: 'Fira Code';
+  display: flex;
+  flex-direction: column;
+  font-weight: 100;
+}
+
+.details h1,
+.period-data,
+.period-data h1 {
+  text-align: center;
+  font-weight: 100;
+}
+
+.period-data {
+  margin-bottom: 40px;
+}
+
+.start-period {
+  width: 30dvw;
+  margin: auto;
+  height: 65px;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Fira Code';
+  font-size: 30px;
+  color: white;
+  background-color: rgb(64, 56, 155);
+  transition: 0.25s;
+}
+
+.start-period:hover {
+  cursor: pointer;
+  background-color: rgb(64, 56, 155, 0.75);
+  transition: 0.25s;
+}
+
+@media screen and (max-width: 900px) {
+
+  .details,
+  .period-data {
+    width: 80dvw;
+  }
+
+  .start-period {
+    width: 70dvw;
+  }
+}
